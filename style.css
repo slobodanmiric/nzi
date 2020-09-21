@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;800&display=swap');
+:root {
+    --accents: #e1a0b1;
+    --basicColor: #333;
+    --transition: .4s ease;
+    --padding: 70px 0;
+    --white: #fff;
+    --violet: #955791;
+    --lightGray: #fbf5f9;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1,h2,h3,h4,h5 {
+    font-weight: 400;
+}
