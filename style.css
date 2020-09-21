@@ -32,6 +32,24 @@ a:hover {
 .bg-light {
     background: rgba(255,255,255,.6) !important;
 }
+.btn {
+    background: var(--accents);
+    padding: 15px 0;
+    width: 250px;
+    border-radius: 30px;
+}
+.btn:hover {
+    background: var(--violet);
+    color: var(--white);
+}
+h2::after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100px;
+    background: var(--accents);
+    margin: 20px 0;
+}
 /****************
 nav
 ****************/
