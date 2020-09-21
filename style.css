@@ -111,6 +111,30 @@ novosti
 .novosti h2::after {
     margin: 20px auto;
 }
+/****************
+partneri
+****************/
+.partneri {
+    display: flex;
+    align-items: center;
+    background: #fdf9fb;
+}
+.partneri article {
+    flex: 1;
+    padding: 20px;
+}
+.parnteri img {
+    width: 100%;
+}
+/****************
+footer
+****************/
+footer img {
+    width: 150px;
+}
+footer .col-md-4:last-child {
+    font-size: .9rem;
+}
 
 
 
