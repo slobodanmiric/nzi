@@ -48,6 +48,23 @@ nav
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: #955791 !important;
 }
+/****************
+header
+****************/
+header {
+    background-image: url(img/NZI-home%20beli.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+header .col-md-8 {
+    height: 80vh;
+}
+header h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
 
 
 
