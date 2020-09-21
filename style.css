@@ -100,6 +100,24 @@ ciljevi
     color: var(--accents);
     font-size: 3rem;
 }
+/****************
+novosti
+****************/
+.novosti .meta {
+    background: var(--lightGray);
+    padding: 3px;
+    margin: 10px 0;
+}
+.novosti h2::after {
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
 
 
 
